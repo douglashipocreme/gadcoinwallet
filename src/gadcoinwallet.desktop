@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gadcoin Wallet
+Comment=gadcoin wallet
+Exec=gadcoin %U
+Terminal=false
+Type=Application
+Icon=gadcoin
+MimeType=x-scheme-handler/gadcoin;
+Categories=Office;Finance;
