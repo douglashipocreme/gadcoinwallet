@@ -43,3 +43,5 @@ cp src/images/gadcoin.png build/
 cd build
 linuxdeployqt.AppImage gadcoinwallet.desktop -appimage -verbose=2 -always-overwrite -no-translations
 ```
+## *Binaries Wallets*
+https://github.com/douglashipocreme/gadcoinwallet/releases
