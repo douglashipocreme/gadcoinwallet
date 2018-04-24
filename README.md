@@ -6,11 +6,11 @@ Dependencies: boost >= 1.58, CMake >= 2.8.6, GCC >=4.7.3, Qt >=5.0
 git clone https://github.com/douglashipocreme/gadcoinwallet.git
 ```
 
-**2. Update git submodule:**
+**2. clone gadcoin-node inside  gadcoinwallet:**
 
 ```
-git submodule update --init --recursive
-git submodule foreach git pull origin master
+cd gadcoinwallet 
+git clone https://github.com/douglashipocreme/gadcoinwallet.git cryptonote 
 ```
 
 **3. Build**
