@@ -1,4 +1,4 @@
 set(CN_PROJECT_NAME "Gadcoin")
 set(CN_CURRENCY_DISPLAY_NAME "gadcoin")
 set(CN_CURRENCY_TICKER "GAD")
-set(CN_VERSION 1.2.0)
+set(CN_VERSION 2.1.2)
