@@ -1,6 +1,14 @@
 cmake_minimum_required(VERSION 2.8.6)
 include(CryptoNoteWallet.cmake)
+
+if(UNIX)
 set (CMAKE_PREFIX_PATH "/opt/Qt/5.10.1/gcc_64/")
+elseif(WIN32)
+set (CMAKE_PREFIX_PATH "C:\\Qt5.11.1\\5.11.1\\msvc2015_64\\lib\\cmake")
+endif ()
+
+
+
 project(${CN_PROJECT_NAME})
 
 execute_process(COMMAND git log -1 --pretty=format:%h
